@@ -1,15 +1,25 @@
 {
-  "name": "movies",
+  "name": "kmdb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjkent/CNM26-kmdb.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjkent/CNM26-kmdb/issues"
+  },
+  "homepage": "https://github.com/kjkent/CNM26-kmdb#readme",
   "dependencies": {
-    "yargs": "^17.1.0"
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.7",
+    "yargs": "^17.1.1"
   }
 }
